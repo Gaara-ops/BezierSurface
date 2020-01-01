@@ -115,6 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BezierCurve.hpp" />
+    <ClInclude Include="Geometry.hpp" />
+    <ClInclude Include="Maths.hpp" />
+    <ClInclude Include="Platform.hpp" />
+    <ClInclude Include="Rasterize.hpp" />
+    <ClInclude Include="Renderer.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BezierCurve.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Maths.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="Rasterize.cpp" />
+    <ClCompile Include="Renderer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
