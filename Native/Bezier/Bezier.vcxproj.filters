@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Platform.hpp" />
+    <ClInclude Include="Maths.hpp" />
+    <ClInclude Include="Geometry.hpp" />
+    <ClInclude Include="Renderer.hpp" />
+    <ClInclude Include="Rasterize.hpp" />
+    <ClInclude Include="BezierCurve.hpp" />
+    <ClInclude Include="Mesh.hpp" />
+    <ClInclude Include="Shader.hpp" />
+    <ClInclude Include="BezierSurface.hpp" />
+    <ClInclude Include="Sence.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Maths.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="Rasterize.cpp" />
+    <ClCompile Include="BezierCurve.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="BezierSurface.cpp" />
+    <ClCompile Include="Sence.cpp" />
+  </ItemGroup>
+</Project>
